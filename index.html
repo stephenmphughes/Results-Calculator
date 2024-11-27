@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Results Calculator</title>
+  </head>
+  <body>
+    <img src="images/calculator.png" width="200px" />
+    <h1>Results Calculator</h1>
+    <h2>1. Enter the number of subjects you took</h2>
+    <h2>2. Enter the grade recieved for each sybject</h2>
+    <h2>3. Click "Get Results"</h2>
+    <div id="box">
+      <label for="numSubjects">Number of Subjects:</label>
+      <input type="number" id="numSubjects" min="1" />
+      <button onclick="createInputFields()">Submit</button>
+
+      <div id="subjectInputs"></div>
+      <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
